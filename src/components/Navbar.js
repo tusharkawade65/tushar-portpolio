@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
+  AiOutlineCloudDownload,
   AiOutlineHome,
   AiOutlineUser,
 } from "react-icons/ai";
@@ -31,7 +32,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          
+
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -60,7 +61,11 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-
+            <Nav.Item>
+              <Nav.Link as={Link} to={process.env.PUBLIC_URL + '/TusharKawadeCV.PDF'} target="_blank" download>
+                <AiOutlineCloudDownload style={{ marginBottom: "2px" }} /> CV
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
