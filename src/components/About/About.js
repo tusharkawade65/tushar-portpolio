@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/sukrut_square.jpg";
+import laptopImg from "../../Assets/Tushar-Kawade.jpg";
 import Tilt from "react-parallax-tilt";
 
 function About() {
@@ -27,19 +27,20 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ 
-              
+            style={{
+
               display: "flex",
               justifyContent: "center",
-              alignItems: "center", 
-              overflow: "hidden", 
-              paddingTop: "30px", 
-              paddingBottom: "30px" }}
-            
+              alignItems: "center",
+              overflow: "hidden",
+              paddingTop: "30px",
+              paddingBottom: "30px"
+            }}
+
             className="about-img circular-image"
           >
             <Tilt>
-            <img src={laptopImg} alt="about" className="img-fluid rounded-circle" />
+              <img src={laptopImg} alt="about" className="img-fluid rounded-circle" />
             </Tilt>
           </Col>
         </Row>

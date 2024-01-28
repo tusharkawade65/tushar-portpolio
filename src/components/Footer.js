@@ -6,7 +6,14 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { CONSTANT_GIT_URL, CONSTANT_INSTA_URL, CONSTANT_LINKEDIN_URL, CONSTANT_NAME, CONSTANT_TWITTER_URL } from "../constants";
 
+function capitalizeEachWord(inputString) {
+  return inputString
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
+}
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
@@ -14,18 +21,18 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          
+
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Sukrut Rahane</h3>
+          <h3>Copyright © {year} {capitalizeEachWord(CONSTANT_NAME)}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/sukrutrahane"
+                href={CONSTANT_GIT_URL}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -33,9 +40,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/sukrutrahane"
+                href={CONSTANT_TWITTER_URL}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -43,9 +50,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/sukrutrahane/"
+                href={CONSTANT_LINKEDIN_URL}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -53,9 +60,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/sukrutrahane"
+                href={CONSTANT_INSTA_URL}
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

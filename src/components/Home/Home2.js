@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { CONSTANT_GIT_URL, CONSTANT_INSTA_URL, CONSTANT_LINKEDIN_URL, CONSTANT_TWITTER_URL } from "../../constants";
 
 function Home2() {
   return (
@@ -19,16 +20,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am fluent in classics like
+              I am a software developer with hands-on experience in
               <i>
-                <b className="purple"> C++ and Python. </b>
+                <b className="purple"> Java and Spring Boot </b>
               </i>
               <br />
               <br />
-              I debug more than I code.
+              I find joy in debugging almost as much as in writing code.
               <br />
               <br />
-              My pronouns are <i><b>Jack of All Trades / Master of none</b></i>
+              Describing me <i><b>Multifaceted learner, master of curiosity.</b></i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -46,7 +47,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sukrutrahane"
+                  href={CONSTANT_GIT_URL}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -56,7 +57,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/sukrutrahane"
+                  href={CONSTANT_TWITTER_URL}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -66,7 +67,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sukrutrahane/"
+                  href={CONSTANT_LINKEDIN_URL}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sukkkrut"
+                  href={CONSTANT_INSTA_URL}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
