@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import { CONSTANT_NAME } from "../../constants";
+import { CONSTANT_HOBBIES, CONSTANT_NAME } from "../../constants";
 
 
 function capitalizeEachWord(inputString) {
@@ -28,15 +28,14 @@ function AboutCard() {
             Some of my hobbies are
           </p>
           <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Partying
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> EDM
-            </li>
+            {CONSTANT_HOBBIES.map((hobbie) => {
+              return (
+                < li className="about-activity" >
+                  <ImPointRight /> {hobbie}
+                </li>
+              )
+            })}
+
           </ul>
 
         </blockquote>

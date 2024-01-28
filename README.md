@@ -1,13 +1,12 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://sukrutrahane.netlify.app/" target="_blank">sukrutrahane</a>
+  <a href="https://main.d1fqox5m930n0y.amplifyapp.com/" target="_blank">TusharKawade</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/interface.png" />
 </div>
 
 <br/>
-
 
 ## Built With
 
@@ -18,7 +17,6 @@ This project was built using these technologies.
 - Express.js
 - CSS3
 - VsCode
-
 
 ## Features
 
@@ -41,4 +39,3 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
-
