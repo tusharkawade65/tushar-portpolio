@@ -17,19 +17,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-
-
-
             Hi Everyone! I'm <span className="purple">{capitalizeEachWord(CONSTANT_NAME)} </span>,
             a backend enthusiast currently excelling at Encora. With an <span className="purple"> MCA </span> from Pune University.
             Explore this portfolio for a glimpse into my journey, and let's collaborate to code the future together!
-
-            {/* Hi Everyone, I am <span className="purple">{capitalizeEachWord(CONSTANT_NAME)} </span>
-            from <span className="purple"> Pune, India.</span>
-            <br /> I am a Third Year student pursuing B.E.
-            in Artificial intelligence & Data Science from Pune University.
-            <br />
-            Additionally, I am enthusiastic about Machine Learning. */}
             <br />
             <br />
             Some of my hobbies are

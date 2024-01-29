@@ -14,7 +14,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import TusharKawadeCV from '../public/TusharKawadeCV.PDF'
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -36,10 +35,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
-          {/* <Route path="/download-cv" component={() => {
-            window.location.href = TusharKawadeCV;
-            return null;
-          }} /> */}
         </Routes>
         <Footer />
       </div>
