@@ -62,7 +62,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to={process.env.PUBLIC_URL + '/TusharKawadeCV.PDF'} target="_blank" download>
+              <Nav.Link as={Link} to={process.env.PUBLIC_URL + '/TusharKawadeCV.pdf'} target="_blank" download>
                 <AiOutlineCloudDownload style={{ marginBottom: "2px" }} /> CV
               </Nav.Link>
             </Nav.Item>
