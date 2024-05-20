@@ -21,6 +21,14 @@ function NavBar() {
     }
   }
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = 'https://tusharcv-amplify.s3.ap-south-1.amazonaws.com/CV_Tushar_Kawade_3.3.pdf';
+    link.target = '_blank';
+    link.click();
+    link.download = 'Vishwajit_Aher_Resume.pdf';
+  }
+
   window.addEventListener("scroll", scrollHandler);
 
   return (
@@ -63,11 +71,11 @@ function NavBar() {
             </Nav.Item>
 
             {/* code for cv download */}
-            {/* <Nav.Item>
-              <Nav.Link as={Link} to={process.env.PUBLIC_URL + '/TusharKawadeCV.pdf'} target="_blank" download>
+            <Nav.Item>
+              <Nav.Link onClick={handleDownload}>
                 <AiOutlineCloudDownload style={{ marginBottom: "2px" }} /> CV
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
