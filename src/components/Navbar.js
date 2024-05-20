@@ -26,7 +26,7 @@ function NavBar() {
     link.href = 'https://tusharcv-amplify.s3.ap-south-1.amazonaws.com/CV_Tushar_Kawade_3.3.pdf';
     link.target = '_blank';
     link.click();
-    link.download = 'Vishwajit_Aher_Resume.pdf';
+    link.download = 'TusharKawadeCV.pdf';
   }
 
   window.addEventListener("scroll", scrollHandler);
