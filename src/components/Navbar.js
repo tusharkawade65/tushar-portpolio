@@ -23,7 +23,7 @@ function NavBar() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://tusharcv-amplify.s3.ap-south-1.amazonaws.com/CV_Tushar_Kawade_3.3.pdf';
+    link.href = 'https://tusharcv-amplify.s3.ap-south-1.amazonaws.com/Java_CV_Tushar_Kawade_40months.pdf';
     link.target = '_blank';
     link.click();
     link.download = 'TusharKawadeCV.pdf';
