@@ -8,6 +8,10 @@ import {
   DiJava,
   DiAndroid,
   DiMysql,
+  DiAws,
+  DiJenkins,
+  DiDocker
+
 } from "react-icons/di";
 import { SiSpringboot } from "react-icons/si";
 
@@ -38,6 +42,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
       </Col>
     </Row>
   );
