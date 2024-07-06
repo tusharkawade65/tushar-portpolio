@@ -8,18 +8,35 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
+  useLocation,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from 'react-ga4';
+
+// Initialize Google Analytics
+ReactGA.initialize('G-V4X6NXXN0E'); // Replace 'G-XXXXXXXXXX' with your tracking ID
+
+// Component to track page views
+const TrackPageView = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
+  }, [location]);
+
+  return null;
+};
+
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
 
     return () => clearTimeout(timer);
@@ -31,6 +48,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
+        <TrackPageView />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
