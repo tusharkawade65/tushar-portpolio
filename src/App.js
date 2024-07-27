@@ -18,7 +18,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ReactGA from 'react-ga4';
 
 // Initialize Google Analytics
-ReactGA.initialize('G-V4X6NXXN0E'); // Replace 'G-XXXXXXXXXX' with your tracking ID
+ReactGA.initialize('G-V4X6NXXN0E');
 
 // Component to track page views
 const TrackPageView = () => {
