@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0840bb27.css",
-    "main.js": "/static/js/main.ef6a0749.js",
-    "static/js/415.fc063c41.chunk.js": "/static/js/415.fc063c41.chunk.js",
-    "static/js/787.f6e65957.chunk.js": "/static/js/787.f6e65957.chunk.js",
-    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/Tushar-Kawade.jpg": "/static/media/Tushar-Kawade.2a911fd196fa0df6005b.jpg",
-    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
-    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
-    "index.html": "/index.html",
-    "main.0840bb27.css.map": "/static/css/main.0840bb27.css.map",
-    "main.ef6a0749.js.map": "/static/js/main.ef6a0749.js.map",
-    "415.fc063c41.chunk.js.map": "/static/js/415.fc063c41.chunk.js.map",
-    "787.f6e65957.chunk.js.map": "/static/js/787.f6e65957.chunk.js.map"
+    "main.css": "/tushar-portpolio/static/css/main.649e851f.css",
+    "main.js": "/tushar-portpolio/static/js/main.6c9d37d1.js",
+    "static/js/415.fc063c41.chunk.js": "/tushar-portpolio/static/js/415.fc063c41.chunk.js",
+    "static/js/787.f6e65957.chunk.js": "/tushar-portpolio/static/js/787.f6e65957.chunk.js",
+    "static/media/home-main.svg": "/tushar-portpolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/home-bg.jpg": "/tushar-portpolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/Tushar-Kawade.jpg": "/tushar-portpolio/static/media/Tushar-Kawade.2a911fd196fa0df6005b.jpg",
+    "static/media/avatar.svg": "/tushar-portpolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/tushar-portpolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/tushar-portpolio/index.html",
+    "main.649e851f.css.map": "/tushar-portpolio/static/css/main.649e851f.css.map",
+    "main.6c9d37d1.js.map": "/tushar-portpolio/static/js/main.6c9d37d1.js.map",
+    "415.fc063c41.chunk.js.map": "/tushar-portpolio/static/js/415.fc063c41.chunk.js.map",
+    "787.f6e65957.chunk.js.map": "/tushar-portpolio/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0840bb27.css",
-    "static/js/main.ef6a0749.js"
+    "static/css/main.649e851f.css",
+    "static/js/main.6c9d37d1.js"
   ]
 }
