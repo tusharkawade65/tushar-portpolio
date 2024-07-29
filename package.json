@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "home-page": "https://tusharkawade65.github.io/tushar-portpolio/",
+  "homepage": "https://tusharkawade65.github.io/tushar-portpolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
